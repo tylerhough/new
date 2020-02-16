@@ -4,7 +4,7 @@ var http = require('http');
 http.createServer(function (req, res) {
   //res.write('Hello World!'); //write a response to the client
   //res.end(); //end the response
-  res.send("<html>"
+  res.write("<html>"
               +"<head></head>"
               +"<body><center><img src='basketball.jpg'></center></body>"
            +'</html>')
