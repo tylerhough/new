@@ -1,0 +1,9 @@
+{
+	"name": "kenny",
+	"version": "1.0.0",
+	"description": "running kenny",
+	"scripts": {
+		"start":"node app.js"
+	},
+	"author": "Tyler H"
+}
