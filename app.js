@@ -4,6 +4,6 @@ var http = require('http');
 http.createServer(function (req, res) {
   //res.write('Hello World!'); //write a response to the client
   //res.end(); //end the response
-  res.write("<center><img src='basketball.jpg'></center>")
+  res.write("<html><body><center><img src='basketball.jpg'></center></body></html>")
   res.end();
 }).listen(8080); //the server object listens on port 8080
